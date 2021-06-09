@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphTwo:
     'At the moment my evenings are spent improving my depth of knowledge with React and Material UI. My long term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products',
   paragraphThree:
-    'In my spare time Travel and Photography and I am also passionate about learning Italian',
+    'In my spare time I love to Travel and take photographs and I am also passionate about learning Italian',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'CV_Generator.png',
     title: 'React CV Generator App',
     info: 'A React Application which generates and prints a CV from user entered data. Utilizes controlled forms and React Hooks',
-    info2: '',
+    info2: 'React, SASS',
     url: 'https://wekiban.github.io/CV_App/',
     repo: 'https://github.com/WeKiBan/CV_App', // if no repo, the button will not show up
   },
@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'taski.png',
     title: 'Taski',
     info: 'A Todo list App built using Vanilla JS and Bootstrap',
-    info2: '',
+    info2: 'Javascript, Bootstrap',
     url: 'https://wekiban.github.io/Taski/',
     repo: 'https://github.com/WeKiBan/Taski', // if no repo, the button will not show up
   },
@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'pbtimer.png',
     title: 'PB Timer',
     info: "As I love to solve the Rubik's cube in my spare time I decided to build this application using Vanilla JS to keep track of my times.",
-    info2: '',
+    info2: 'Javascript, External API',
     url: 'https://wekiban.github.io/Rubiks-cube-timer/',
     repo: 'https://github.com/WeKiBan/Rubiks-cube-timer', // if no repo, the button will not show up
   },
@@ -60,8 +60,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'weather.png',
     title: 'Weather App',
-    info: '',
-    info2: '',
+    info: "A web application which dynamically displays the present weather at the user's favourite locations around the globe, from an array of locations which is persisted in local storage.",
+    info2: 'Javascript, OpenWeatherAPI',
     url: 'https://wekiban.github.io/weather-app-2/',
     repo: 'https://github.com/WeKiBan/weather-app-2', // if no repo, the button will not show up
   },

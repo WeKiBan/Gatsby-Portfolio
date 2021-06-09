@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
+import background from './background.jpg';
+
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
   const { title, name, subtitle, cta } = hero;
@@ -21,8 +23,12 @@ const Header = () => {
     }
   }, []);
 
+  const sectionStyle = {
+    backgroundImage: `url(${background})`,
+  };
+
   return (
-    <section id="hero" className="jumbotron">
+    <section style={sectionStyle} id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
