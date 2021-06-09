@@ -61,7 +61,7 @@ export const projectsData = [
     img: 'weather.png',
     title: 'Weather App',
     info: "A web application which dynamically displays the present weather at the user's favourite locations around the globe, from an array of locations which is persisted in local storage.",
-    info2: 'Javascript, bootstrap, OpenWeatherAPI',
+    info2: 'Javascript, Bootstrap, OpenWeatherAPI',
     url: 'https://wekiban.github.io/weather-app-2/',
     repo: 'https://github.com/WeKiBan/weather-app-2', // if no repo, the button will not show up
   },
