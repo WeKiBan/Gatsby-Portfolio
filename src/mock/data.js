@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'pbtimer.png',
     title: 'PB Timer',
     info: "As I love to solve the Rubik's cube in my spare time I decided to build this application using Vanilla JS to keep track of my times.",
-    info2: 'Javascript, External API',
+    info2: 'Javascript',
     url: 'https://wekiban.github.io/Rubiks-cube-timer/',
     repo: 'https://github.com/WeKiBan/Rubiks-cube-timer', // if no repo, the button will not show up
   },
@@ -61,7 +61,7 @@ export const projectsData = [
     img: 'weather.png',
     title: 'Weather App',
     info: "A web application which dynamically displays the present weather at the user's favourite locations around the globe, from an array of locations which is persisted in local storage.",
-    info2: 'Javascript, OpenWeatherAPI',
+    info2: 'Javascript, bootstrap, OpenWeatherAPI',
     url: 'https://wekiban.github.io/weather-app-2/',
     repo: 'https://github.com/WeKiBan/weather-app-2', // if no repo, the button will not show up
   },
