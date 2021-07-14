@@ -23,12 +23,21 @@ export const aboutData = {
   paragraphTwo:
     'At the moment my evenings are spent improving my depth of knowledge with React and Material UI. My long term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products',
   paragraphThree:
-    'In my spare time I love to Travel and take photographs and I am also passionate about learning Italian',
+    'In my spare time I love to travel and take photographs and I am also passionate about learning Italian',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Spoonly.png',
+    title: 'Recipe Search Application',
+    info: 'A recipe search application utilizing React, Material UI, React Hooks, The Context API, Edamam external recipe api.',
+    info2: 'React, React Hooks, Material UI, Context API',
+    url: 'https://spoonly.netlify.app',
+    repo: 'https://github.com/WeKiBan/recipe-website', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'CV_Generator.png',
